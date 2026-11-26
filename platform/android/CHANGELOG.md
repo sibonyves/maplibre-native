@@ -1,5 +1,11 @@
 # Changelog MapLibre Native for Android
 
+## main
+
+### ✨ Features and improvements
+
+- New paint properties `line-fade-zoom` and `fill-fade-zoom` fade lines and polygons in and out when the zoom crosses a value read from each feature, over the same duration as symbol fades, so a style no longer needs one layer per first zoom ([#PR_NUMBER](https://github.com/maplibre/maplibre-native/pull/PR_NUMBER)).
+
 ## 13.8.0
 
 ### ✨ Features and improvements
